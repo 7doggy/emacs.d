@@ -1,0 +1,6 @@
+#.gitignore file
+
+/elpa
+/auto-save-list
+/site-lisp
+/snippets
