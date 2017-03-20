@@ -15,6 +15,8 @@
 (require 'init-helm)
 (require 'init-color-theme-spacemacs)
 (require 'init-magit)
+(require 'init-ivy)
+(require 'init-find-file-in-project)
 ;(require 'init-color-theme-solarized)
 ;(require 'init-auto-complete)
 ;(require 'init-ac-source)
@@ -96,7 +98,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-	("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" default))))
+	("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
