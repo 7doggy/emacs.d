@@ -17,6 +17,7 @@
 (require 'init-magit)
 (require 'init-ivy)
 (require 'init-find-file-in-project)
+(require 'init-web-mode)
 ;(require 'init-color-theme-solarized)
 ;(require 'init-auto-complete)
 ;(require 'init-ac-source)
@@ -106,4 +107,4 @@
  ;; If there is more than one, they won't work right.
  )
 
-(load-theme 'spacemacs-light)
+(load-theme 'spacemacs-dark)
