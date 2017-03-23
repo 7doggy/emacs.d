@@ -19,6 +19,7 @@
 (require 'init-find-file-in-project)
 (require 'init-web-mode)
 (require 'init-js2-mode)
+(require 'init-helm-projectile)
 ;(require 'init-color-theme-solarized)
 ;(require 'init-auto-complete)
 ;(require 'init-ac-source)
