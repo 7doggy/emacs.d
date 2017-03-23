@@ -20,6 +20,7 @@
 (require 'init-web-mode)
 (require 'init-js2-mode)
 (require 'init-helm-projectile)
+(require 'init-highlight-tail)
 ;(require 'init-color-theme-solarized)
 ;(require 'init-auto-complete)
 ;(require 'init-ac-source)
@@ -67,6 +68,9 @@
 (setq default-process-coding-system '(utf-8 . utf-8))
 (setq default-pathname-coding-system 'utf-8)
 (setq default-buffer-file-coding-system 'utf-8)
+
+;;emacs配置：自动补全括号
+(electric-pair-mode t)
 
 ;set transparent effect   
 (global-set-key [(f11)] 'loop-alpha)  
