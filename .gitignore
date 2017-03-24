@@ -4,3 +4,8 @@
 /auto-save-list
 /site-lisp
 /snippets
+/eshell
+*~
+projectile-bookmarks.eld
+projectile.cache
+\#*#
