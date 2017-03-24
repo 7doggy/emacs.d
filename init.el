@@ -21,6 +21,7 @@
 (require 'init-js2-mode)
 (require 'init-helm-projectile)
 (require 'init-highlight-tail)
+(require 'init-highlight-parentheses)
 ;(require 'init-color-theme-solarized)
 ;(require 'init-auto-complete)
 ;(require 'init-ac-source)
