@@ -14,7 +14,7 @@
 (require 'init-color-theme-zenburn)
 (require 'init-helm)
 (require 'init-color-theme-spacemacs)
-(require 'init-magit)
+;(require 'init-magit)
 (require 'init-ivy)
 (require 'init-find-file-in-project)
 (require 'init-web-mode)
@@ -36,6 +36,7 @@
 (setq default-fill-column 80)
 (setq frame-title-format "@%b")
 (setq command-line-default-directory "e:/code/")
+(setq default-directory "e:/code/")
 (setq mouse-yank-at-point t)
 
 ;(menu-bar-mode 0)
