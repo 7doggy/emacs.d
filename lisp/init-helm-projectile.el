@@ -7,5 +7,6 @@
 (helm-projectile-on)
 (setq projectile-enable-caching t)
 (global-set-key [f5] 'helm-projectile)
+;(setq projectile-indexing-method 'alien)
 
 (provide 'init-helm-projectile)

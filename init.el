@@ -38,7 +38,7 @@
 (setq default-fill-column 80)
 (setq frame-title-format "@%b")
 (setq command-line-default-directory "e:/code/")
-(setq default-directory "e:/code/")
+(setq default-directory "e:/")
 (setq mouse-yank-at-point t)
 
 ;(menu-bar-mode 0)
@@ -116,5 +116,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; add cmder <http://cmder.net/> bin directory to the path
+(setenv "PATH"
+  (concat
+   ;; adapt "C:\\tools\\cmder" if you changed cmder default dir
+   "D:\\cmder1.3.2_full\\vendor\\git-for-windows\\usr\\bin;"
+   (getenv "PATH")))
 
 (load-theme 'spacemacs-dark)
